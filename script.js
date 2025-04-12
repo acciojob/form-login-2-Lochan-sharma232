@@ -7,7 +7,7 @@ const lastName=document.getElementById('lastName').value;
 const phoneNumber=document.getElementById('phoneNumber').value;
 const emailID=document.getElementById('emailID').value;
 	
-const alertmg=`First Name:${firstName}\n Last Name:${lastName}\nPhone Number${phonenumber}\n emailID${EmailID}`
+const alertmg=`First Name:${firstName}\n Last Name:${lastName}\nPhone Number:${phonenumber}\n emailID${EmailID}`;
 		alert(alertmg);
 });		
 });
