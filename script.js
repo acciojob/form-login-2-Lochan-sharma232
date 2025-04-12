@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded',function() {
 document.getElementById('myform').addEventListener('submit',function(event){
 //your JS code here. If required.
 event.preventDefault();
-const firstName=document.qurySelector('firstName').value;
+const firstName=document.querySelector('firstName').value;
 const lastName=document.querySelector('lastName').value;
 const phoneNumber=document.querySelector('phoneNumber').value;
 const emailID=document.querySelector('emailID').value;
