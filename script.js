@@ -1,8 +1,13 @@
-let submit=document.getElementById('myForm')
 document.addEventListener('DOMContentLoaded',function() {
 document.getElementById('myform').addEventListener('submit',function(event){
 //your JS code here. If required.
 event.preventDefault();
-	function 
-	alert("submit")
+const firstName=document.getElementById('firstName').value;
+const lastName=document.getElementById('lastName').value;
+const phoneNumber=document.getElementById('phoneName').value;
+const firstName=document.getElementById('emailID').value;
+	
+const alertmg=`First Name:${firstName}\n Last Name:${lastName}\nPhone Number${phonenumber}\n emailID${EmailID}`
+		alert(alertmg);
+});		
 });
